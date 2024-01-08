@@ -1,0 +1,66 @@
+.img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+}
+.main{
+    background-color: rgba(0, 0, 0, 0.342);
+    border: 1px solid lightgray;
+    width: 320px;
+    padding: 40px;
+    padding-left: 70px;
+    margin: 100px auto;
+    border-radius: 2px;
+    position: relative;
+    top: 60px;
+    height: 500px;
+}
+.logo{
+    color: white;
+    position: relative;
+    left: 30px;
+    top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+.hed1{
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.email::placeholder{
+    color: lightgray;
+}
+.email{
+    border: none;
+    background-color: gray;
+    border-radius: 3px;
+    padding: 16px;
+    width: 250px;
+    position: relative;
+    top: 10px;
+}
+.pass::placeholder{
+    color: lightgray;
+}
+.pass{
+    background-color: gray;
+    border: none;
+    border-radius: 3px;
+    padding: 16px;
+    width: 250px;
+    position: relative;
+    bottom: -35px;
+}
+.btn{
+    background-color: red;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    border-radius: 3px;
+    position: relative;
+    bottom: -75px;
+    width: 285px;
+    height: 40px;
+    font-size: 20px;
+}
